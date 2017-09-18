@@ -5,8 +5,8 @@ angular.module('fish-pond')
   },
   template: `
     <div>
-      <fish-table-row></fish-table-row>
-      <fish-table-row></fish-table-row>
-      <fish-table-row></fish-table-row>
+      <fish-table-row ng-repet="fish in $ctrl.fishes"> 
+      fishe=fish </fish-table-row>
+      
     </div>`
 });

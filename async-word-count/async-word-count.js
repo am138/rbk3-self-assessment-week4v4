@@ -20,7 +20,13 @@ var specificWordCount = function(filePath, word, callback) {
 };
 
 var getTotalSpecificWordCount = function(filePathOne, filePathTwo, word, callback) {
-  // YOUR CODE HERE
+	console.log('word count for the first file ')
+specificWordCount(filePathOne,word,callback)
+
+console.log('word count for the second  file ')
+specificWordCount(filePathTwo,word,callback)
+
+
   
 };
 

@@ -12,7 +12,7 @@ angular.module('fish-pond')
   controller: 'FishTableCtrl',
   template: `
     <div>
-      <span class="fish-name">1</span>
+      <span class="fish-name" >1</span>
       <span class="fish-name">Nemoo</span>
       <span>
         <img src="http://tinyurl.com/h8o5szh" />
